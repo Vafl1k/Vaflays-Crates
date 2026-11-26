@@ -1,0 +1,41 @@
+# Konfigurace Vaflays Crates (Paper 1.21.11)
+messages:
+  prefix: "<gradient:#ffaa00:#ff5500><bold>VaflaysCrates</bold></gradient> <dark_gray>»</dark_gray> "
+  no-permission: "<red>Na toto nemas opravneni!"
+  crate-set: "<green>Bedna <yellow>{crate}</yellow> byla uspesne postavena na tento blok!"
+  crate-removed: "<red>Bedna byla odstranena."
+  key-given: "<green>Dal jsi hraci <yellow>{player}</yellow> <gold>{amount}x</gold> klic k bedne <yellow>{crate}</yellow>!"
+  need-key: "<red>V ruce musis drzet spravny <gold>3D Klic</gold> pro tuto bednu!"
+  already-opening: "<yellow>Tato bedna se zrovna otevira, pockej chvili!"
+  reloaded: "<green>Konfigurace byla znovu nactena!"
+
+crates:
+  legendary:
+    display-name: "<gold><bold>★ LEGENDARY CRATE ★</bold></gold>"
+    key-name: "<gold><bold>Klíč k Legendary Bedně</bold></gold>"
+    key-lore:
+      - "<gray>Klikni <yellow>LEVÝM tlačítkem</yellow> na bednu na spawnu"
+      - "<gray>a sleduj epickou animaci!"
+    rewards:
+      sword:
+        material: NETHERITE_SWORD
+        amount: 1
+        name: "<gradient:#ff5555:#ffaa00><bold>Meč Krále Vaflayse</bold></gradient>"
+        chance: 15.0
+      diamonds:
+        material: DIAMOND
+        amount: 16
+        name: "<aqua><bold>Hromada Diamantů</bold></aqua>"
+        chance: 40.0
+      gapples:
+        material: ENCHANTED_GOLDEN_APPLE
+        amount: 3
+        name: "<gold><bold>Zlatá Jablka</bold></gold>"
+        chance: 25.0
+      totem:
+        material: TOTEM_OF_UNDYING
+        amount: 1
+        name: "<yellow><bold>Totem Nesmrtelnosti</bold></yellow>"
+        chance: 20.0
+
+locations: {}

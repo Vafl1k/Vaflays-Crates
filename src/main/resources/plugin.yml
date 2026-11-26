@@ -1,0 +1,18 @@
+name: VaflaysCrates
+version: '1.0.0'
+main: cz.vaflays.crates.VaflaysCratesPlugin
+api-version: '1.21'
+authors: [Vaflays]
+description: Custom 3D Crates s animacemi klice, vika a rulety pro Paper 1.21.11
+
+commands:
+  vcrate:
+    description: Hlavni prikaz pro spravu Vaflays Crates
+    usage: /vcrate <set|remove|givekey|reload>
+    permission: vaflayscrates.admin
+    aliases: [vaflayscrate, crates]
+
+permissions:
+  vaflayscrates.admin:
+    description: Plny pristup ke sprave beden a rozdavani klicu
+    default: op
